@@ -20,15 +20,11 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        
-    - name: Make Gradle executable
-      run: chmod +x ./gradlew
-      
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v3
     
-    - name: Build APK
-      run: ./gradlew assembleDebug
+    - name: Build with Gradle
+      uses: gradle/gradle-build-action@v2
+      with:
+        arguments: assembleDebug
     
     - name: Upload APK
       uses: actions/upload-artifact@v4

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe-zone (bounds: x 21-87, y 21-87) -->
+    <!-- Gold Bullion Base -->
+    <path
+        android:pathData="M27,62 L35,46 L73,46 L81,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="46"
+                android:endX="81"
+                android:endY="62"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE57F" />
+                <item android:offset="0.3" android:color="#FFD700" />
+                <item android:offset="0.7" android:color="#FFC107" />
+                <item android:offset="1.0" android:color="#FFA000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bullion Front Face -->
+    <path
+        android:pathData="M27,62 L32,73 L76,73 L81,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="62"
+                android:endX="81"
+                android:endY="73"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFA000" />
+                <item android:offset="0.5" android:color="#FF8F00" />
+                <item android:offset="1.0" android:color="#E65100" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bullion Bevel Highlight -->
+    <path
+        android:pathData="M35,46 L73,46 L71,48 L37,48 Z"
+        android:fillColor="#FFFFFFFF"
+        android:fillAlpha="0.6"/>
+    <!-- Candlestick / Trend Line Chart Overlay -->
+    <path
+        android:pathData="M26,52 L42,39 L56,44 L78,26"
+        android:strokeWidth="3.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Candle bars -->
+    <path
+        android:pathData="M35,37 L35,47 M35,40 L35,45"
+        android:strokeWidth="2.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M48,34 L48,46 M48,37 L48,43"
+        android:strokeWidth="2.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M65,28 L65,39 M65,30 L65,36"
+        android:strokeWidth="2.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round" />
+    <!-- Rising Arrowhead -->
+    <path
+        android:pathData="M70,26 L78,26 L78,34"
+        android:strokeWidth="3.5"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Sparkling Gold Star/Diamond -->
+    <path
+        android:pathData="M78,26 L79.5,22 L83.5,20.5 L79.5,19 L78,15 L76.5,19 L72.5,20.5 L76.5,22 Z"
+        android:fillColor="#FFF59D" />
+</vector>

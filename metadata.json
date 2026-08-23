@@ -1,0 +1,8 @@
+{
+  "name": "Remix XAU/USD Gold Live",
+  "description": "Real-time XAU/USD gold price tracker with interactive charts, technical indicators, and instant price alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
